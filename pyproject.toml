@@ -2,7 +2,7 @@
 name = "kelly-monte-carlo"
 version = "0.1.0"
 description = "Monte Carlo portfolio simulation with Kelly Criterion sizing"
-requires-python = ">=3.11"
+requires-python = ">=3.9"
 dependencies = [
     "numpy>=1.26,<3",
     "scipy>=1.12,<2",
@@ -19,7 +19,7 @@ dev = [
 
 [tool.ruff]
 line-length = 100
-target-version = "py311"
+target-version = "py39"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "N", "W", "UP"]
